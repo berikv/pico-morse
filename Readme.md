@@ -7,9 +7,9 @@ The program will make the RP2040 convert serial text input into morse code and s
 
 The serial text will be read from USB. It is possible to adjust the [CMakeLists.txt](CMakeLists.txt) and have the serial text come from UART.
 
-* Morse implementation based on https://github.com/raspberrypi/pico-examples/blob/master/picoboard/blinky/blinky.c
-* RP2040 on board led blinking based on https://github.com/raspberrypi/pico-examples/blob/master/blink/blink.c
-* USB serial input based on https://github.com/raspberrypi/pico-examples/blob/master/hello_world/usb/hello_usb.c
+* Morse implementation based on [pico-examples blinky](https://github.com/raspberrypi/pico-examples/blob/master/picoboard/blinky/blinky.c)
+* RP2040 on board led blinking based on [pico-examples blink](https://github.com/raspberrypi/pico-examples/blob/master/blink/blink.c)
+* USB serial input based on [pico-examples hello_usb](https://github.com/raspberrypi/pico-examples/blob/master/hello_world/usb/hello_usb.c)
 
 The how to's below are opinnionated to make them short and useful: There are alternatives available in the [RP2040 Getting started guide](https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf).
 
