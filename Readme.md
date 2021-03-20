@@ -3,6 +3,8 @@
 This is a demo program, to explore the RP2040 (aka "the pico").
 The program will make the RP2040 convert serial text input into morse code and send the morse code with its on-board LED.
 
+![RP2040 sending morse code](Example.gif)
+
 The serial text will be read from USB. It is possible to adjust the [CMakeLists.txt](CMakeLists.txt) and have the serial text come from UART.
 
 * Morse implementation based on https://github.com/raspberrypi/pico-examples/blob/master/picoboard/blinky/blinky.c
